@@ -23,3 +23,9 @@ Unfortunately only 2 out of 9 tests pass. The other 7 tests fail due to multiple
 the calculations of the grand total both on page load and on any user action. In addition, the discount
 doesn't seem to actually impact the item cost, whether during the countdown or after it finishes. This 
 only compounds the calculation issue with the grand total.
+
+## Setup and Running tests
+
+* Run `npm run install-browsers` to use the latest browser versions for Playwright
+* Run `npm run test` to execute all tests in headless mode
+* Run `npm run test:headed` to execute tests in headed mode
